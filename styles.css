@@ -1,0 +1,87 @@
+body > table{
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+.form-action-buttons{
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+  .container {
+    margin-top: 20px;
+  }
+  .form-label {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+  .dltbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    background-color: red;
+    font-weight: bold;
+    margin-left: 30%;
+  }
+  .editbtn {
+    display: flex;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    margin-right: 2%;
+  }
+  .data {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+  }
